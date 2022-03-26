@@ -135,12 +135,11 @@ header{
     margin-top: 2rem;
 }
 .box1,.box2,.box3{
+    box-sizing: border-box;
     padding: 30px 40px;
     box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    box-sizing: border-box;
 }
-
 .copyright{
     padding: 20px;
     /* display: flex;
