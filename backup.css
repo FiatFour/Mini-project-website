@@ -51,7 +51,7 @@ header{
     position: relative;
 }
 .navbar a{
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 10px 20px;
     color: var(--text-color);
     font-weight: 500;

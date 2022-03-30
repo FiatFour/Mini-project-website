@@ -44,7 +44,6 @@ header{
     background: #eeeff1;
     padding: 15px 100px;
 }
-
 .navbar{
     display: flex;
 }
@@ -52,7 +51,7 @@ header{
     position: relative;
 }
 .navbar a{
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 10px 20px;
     color: var(--text-color);
     font-weight: 500;
@@ -102,6 +101,16 @@ header{
     padding: 40px 0;
     text-align: left;   
 }
+.banner-img{
+    width:100%;
+    min-height: 100vh;
+    background:rgba(0, 0, 0, 0.4) url(img/2.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: blur(2px);
+    background-blend-mode: darken;
+}
 
 .text h1{
     font-size: 2rem;
@@ -113,73 +122,132 @@ header{
 .text p{
     margin: 00.5rem 0 1rem;
     color: #FFF;
-    font-size: 1.5rem;
     /* background-color: #29343852;
     border-radius: 10px; */
     
 }
 
-.heading h1{
-    font-size: 1.5rem;
-    color: var(--main-color);
+.heading{
+    text-align: center;
 }
 
 .heading span{
     font-weight: 500;
-    font-size: 1rem;
 }
+.heading h1{
+    font-size: 2rem;
+}
+
+
 .container{
     display:grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit,minmax(250px,auto));
     gap: 1rem;
-    margin-top: 2rem; 
-    text-align:left;
-}
-
-.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{
-    box-sizing: border-box;
-    padding: 30px 40px;
-    box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;  
-    height: 100%;  
-}
-
-.container4{
-    display:grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
-    gap: 1rem;
-    margin-top: 2rem; 
-    justify-items: center;
-}
-.container-2{
-    display:grid;
-    align-items: center;
-    gap: 1rem;
     margin-top: 2rem;
+   
+   
+    
 }
-.heading p{
-    text-indent: 40px;
-}
-
-/*----------------------------------------------------------------------------------------------------*/
-
-
-/* .box4,.box5,.box6{
+.box1,.box2,.box3{
     box-sizing: border-box;
     padding: 30px 40px;
     box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-} */
+   
+    
+}
+
+.box1:hover{
+    
+    color: var(--second-color);
+}
+.box2:hover{
+    
+    color: var(--second-color);
+}
+.box3:hover{
+    
+    color: var(--second-color);
+}
 
 /*----------------------------------------------------------------------------------------------------*/
 
+.container2{
+    display:grid;
+    align-items:center;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 1rem;
+    margin-top: 2rem;  
+    
+   
+}
 
+.box4,.box5,.box6{
+    box-sizing: border-box;
+    padding: 30px 40px;
+    box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    
+    
+   
+}
+
+.box4:hover{
+    
+    color: var(--second-color);
+}
+.box5:hover{
+    
+    color: var(--second-color);
+}
+.box6:hover{
+    
+    color: var(--second-color);
+}
 
 /*----------------------------------------------------------------------------------------------------*/
 
+.container3{
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 1rem;
+    margin-top: 2rem;   
+}
 
+.box7,.box8,.box9{
+    box-sizing: border-box;
+    padding: 30px 40px;
+    box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+
+.container4{
+    display:table;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 1rem;
+    margin-top: 2rem; 
+   
+}
+
+
+.box10{
+    box-sizing: border-box;
+    padding: 30px 40px;
+    box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    
+}
+
+.box10:hover{
+    
+    color: var(--second-color);
+}
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -283,6 +351,7 @@ header{
     .navbar a::after{
         display: none;
     }
+
     .heading span{
         font-size: 0.9rem;
         font-weight: 600;
